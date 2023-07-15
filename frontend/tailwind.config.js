@@ -2,10 +2,15 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{ts, tsx}"
+    "./src/**/*.{ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'red-primary': '#FF2D55',
+        'gray-custom': '#928EAA'
+      }
+    },
   },
   plugins: [],
 }
