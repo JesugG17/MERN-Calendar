@@ -52,7 +52,7 @@ export const LoginPage = () => {
             <div className="h-4 border-b-2 border-gray-300 text-lg text-center lg:w-4/5">
               <span className="bg-white px-5">OR</span>
             </div>
-            <button className="w-full text-xs md:text-sm flex items-center justify-center gap-2 shadow-md p-3 rounded font-medium lg:w-4/5 lg:text-lg">
+            <button className="w-full text-xs  flex items-center justify-center gap-2 shadow-md p-3 rounded font-medium hover:bg-slate-50 transition-all duration-300 md:text-sm lg:w-4/5 lg:text-lg">
               <Google />
               Sign with google
             </button>
